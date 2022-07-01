@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', Impact, bold;
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#caixa-numeros {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 340px;
+    border-radius: 6px;
+    padding-left: 10px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+}
+
+.numeros {
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    width: 100px;
+    color: rgb(0, 255, 34);
+    display: inline;
+    
+}
+
+.numero-verde {
+    color: rgb(16, 83, 3);
+}
+
+#caixa-botoes {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#start{
+    font-weight: 250
+}
+#reset{
+    color: yellowgreen;
+
+    font-weight: 250;
+}
+
+#stop{
+    color:aquamarine;
+
+    font-weight: 250;
+}
+
+.ativo{
+    opacity: 0;
+}
+
+
+.botoes {
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#caixa-data {
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 340px;
+    border-radius: 6px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+}
+
+.data {
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    width: 100px;
+    color: rgb(0, 255, 34);
+    display: inline;
+}
+
+
